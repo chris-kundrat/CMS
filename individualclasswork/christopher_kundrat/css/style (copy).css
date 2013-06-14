@@ -1,0 +1,177 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {background-color: #183A7D}
+
+a { text-decoration: none;}
+
+ul {list-style-type: none;}
+
+#wrapper {
+	width: 90%;
+	margin: auto;
+}
+
+
+/* header */
+
+header {
+	height: 85px;
+	background-color: #FF4800;
+	margin:0px auto;
+	margin-top: 1%;
+	text-align:center;
+}
+
+.left_header{
+	float: left;
+	margin:5px;
+	width: 45%;
+	height: 80px;
+	
+}
+
+.left_header img {
+	float: left;
+	vertical-align: middle;
+	height: 75px;
+}
+
+.left_header h1 {
+	margin: auto;
+	line-height: 80px;
+	vertical-align:middle;
+	color: #FFF;
+}
+
+#header_nav {
+	float:right;
+	width: 35%;
+}
+
+#header_nav ul {
+	width: 100%;
+}
+
+#header_nav ul a {
+	padding-right: 32px;
+	padding-left: 32px;
+	display: block;
+	line-height: 85px;
+	color: #FFF;
+	
+}
+
+#header_nav li {
+	float:right;
+	border-left: 2px solid #FFF;
+}
+
+#header_nav ul a:hover {
+	float:right;
+	border-left: 2px solid #FFF;
+	background-color: #183A7D;
+}
+
+/* container */
+
+.content {
+	background-color:  #B6C4FC;
+	border: 1px solid #FF4800;
+	-webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	width: auto;
+	height: auto;
+	text-align:center;
+	overflow: auto;
+}
+
+.content p {
+	margin: 2%;
+}
+
+.content.pull_left {
+	float: left;
+	clear: left;
+	width: 45%;
+	margin-top: 1%;
+	margin-right: 1%;
+
+}
+
+.content_image{
+	float: left;
+	margin: 1%;
+}
+
+.pull_right img{
+	display:block;
+	margin:auto;
+	margin:auto;
+	margin-top: 1%;
+}
+
+.content h2 {
+	width: 100%;
+	color: white;
+	background-color: #FF4800;
+	text-align: center;
+}
+
+.content.pull_right {
+	float:right;
+	clear: right;
+	width: 45%;
+	margin-top: 1%;
+	margin-left: 1%;
+}
+
+.description {
+	font-size: 40px;
+}
+
+.text_with_image {
+	margin-top: 5%;
+}
+
+.text_only  {
+	margin-bottom: 5%;
+	
+}
+
+/* Sticky Footer */
+
+#footer {
+ clear: both;
+ position: absolute;
+ z-index: 10;
+ height: 80px;
+ bottom:0;
+ margin-top: -80px;
+ text-align: center;
+ width:90%;
+}
+
+#help_bar {
+	height: 65%;
+	color: #FFF;
+	background-color: #FF4800;
+	border: 1px solid #E3E3E3;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+}
+
+#copyright{
+	height:80px;
+	color: #FFF;
+}
+#container{ 
+	padding-bottom: 80px;
+	overflow: auto;
+}

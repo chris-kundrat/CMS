@@ -1,0 +1,201 @@
+#sidebar  {
+	color: red;
+	min-height: 100%;
+	width: 150px;
+	float: left;
+	margin-top: 0px;
+	background-color: red;
+	position: fixed;
+	background-color: #063053;
+    background-image: linear-gradient(#063053, #395873, #5C7C99);
+}
+
+.sidebar-menu  {
+	margin-top: 120px;
+	text-decoration: none;
+	list-style: none;
+	}
+	
+.sidebar-menu  li {
+	padding: 5px;
+	}
+	
+.sidebar-menu a {
+	color: white;
+	}
+
+
+
+header {
+	height:100px;
+}
+
+#title {
+	margin-left: 180px;
+	margin-right: 180px;
+	}
+
+.navbar{
+	width:100%;
+	position: relative;
+	height: 46px;
+	overflow:auto;
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top right, #FF8E0D 0%, #FFE608 100%);
+
+	/* Mozilla Firefox its diferent cause its Firefox. Deal with it B) */ 
+	background-image: -moz-radial-gradient(45px 45px 45deg, circle farthest-corner, yellow 0%, orange 100%, red 95%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(top right, #FF8E0D 0%, #FFE608 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, right top, left bottom, color-stop(0, #FF8E0D), color-stop(1, #FFE608));
+
+	/* Webkit (Chrome 11+) */ 	
+	background-image: -webkit-linear-gradient(top right, #FF8E0D 0%, #FFE608 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom left, #FF8E0D 0%, #FFE608 100%);
+	
+		border: 1px solid transparent;
+  -webkit-border-radius: 4px 4px 0 0;
+     -moz-border-radius: 4px 4px 0 0;
+          border-radius: 4px 4px 0 0;
+	margin-bottom: 2px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+}
+
+.navbar .nav > li > a {
+	font-weight: bold;
+	text-shadow: 0pt 1px 1px rgba(0, 0, 0, 0.075) inset, 0pt 0pt 8px rgba(82, 168, 236, 0.6);
+	padding: 0px;
+	padding-left: 10px;
+	margin-top: 13px;
+	
+}
+
+
+
+.nav .nav-pills ul {
+     margin-left: 150px;
+	 overflow: auto;
+
+	 }
+
+
+.navbar-inner{
+	margin: 0px;
+	height: 40px;
+	padding-top: 1px;
+	width: 90%;
+	background: none;
+	border: none;
+	 -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+.navbar-inner ul {
+	padding-left: 150px;
+	
+	
+}
+
+.divider-vertical{
+	padding-top: 5px;
+}
+
+.container {
+	min-height: 700px;
+	margin-left: 180px;
+	padding-top: 20px;
+	width: 80%;
+	overflow: auto;
+	
+}
+
+.support-note span{
+	color: #ac375d;
+	font-size: 16px;
+	display: none;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px 0;
+}
+
+.logo1 h3{
+	margin-top: 0px;
+}
+
+legend h3 {
+	margin-top: 0px;
+}
+
+.well {
+	margin-top: 15px;
+	margin-bottom: 0px;
+	
+	
+	
+}
+
+
+
+
+.well1{
+	margin-top: 15px;
+}
+
+
+
+.GetPages td{
+	width: 150px;
+	}
+	
+
+
+.wellfooter{
+	width:100%;
+	position: relative;
+	height: 20px;
+	bottom:0;
+	margin-bottom: 5px;
+	clear:both;
+	
+	border: 1px solid transparent;
+  -webkit-border-radius: 4px 4px 0 0;
+     -moz-border-radius: 4px 4px 0 0;
+          border-radius: 4px 4px 0 0;
+	margin-bottom: 2px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top right, #FF8E0D 0%, #FFE608 100%);
+
+	/* Mozilla Firefox its diferent cause its Firefox. Deal with it B) */ 
+	background-image: -moz-radial-gradient(45px 45px 45deg, circle farthest-corner, yellow 0%, orange 100%, red 95%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(top right, #FF8E0D 0%, #FFE608 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, right top, left bottom, color-stop(0, #FF8E0D), color-stop(1, #FFE608));
+
+	/* Webkit (Chrome 11+) */ 	
+	background-image: -webkit-linear-gradient(top right, #FF8E0D 0%, #FFE608 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom left, #FF8E0D 0%, #FFE608 100%);
+	
+}
+
+#title h1 {
+	padding-top: 15px; 
+	margin-top: 0px;
+	margin-left: 10%;
+	font-size: 72px;}
+

@@ -1,0 +1,277 @@
+
+#sidebar  {
+	color: red;
+	min-height: 100%;
+	width: 160px;
+	float: left;
+	margin-top: -6px;
+	margin-left: 0px;
+	background-color: red;
+	position: fixed;
+	background-color: #063053;
+    background-image: linear-gradient(#063053, #395873, #5C7C99);
+	display:block;
+	clear:left;
+}
+
+.sidebar-menu  {
+	margin-top: auto;
+	text-decoration: none;
+	list-style: none;
+	}
+	
+.sidebar-menu  li {
+	padding: 5px;
+	padding-left: 10px;
+	}
+	
+.sidebar-menu h5 {
+	margin-bottom: 0px;
+}	
+.sidebar-menu a {
+	color: white;
+	}
+
+	
+header {
+	width: 100%;
+	clear:both;
+
+}
+
+#title h1 {
+	font-size:46px;
+	padding: 0px;
+	margin: 0px;
+	font-family: Century Gothic, sans-serif;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #003366, 0 0 70px #003366, 0 0 80px #003366, 0 0 100px #003366, 0 0 150px #003366;
+	font-style: italic;
+}
+	
+#nav{
+	
+	width:100%;
+	
+	overflow:hidden;
+	
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top right, #FF8E0D 0%, #FFE608 100%);
+
+	/* Mozilla Firefox its diferent cause its Firefox. Deal with it B) */ 
+	background-image: -moz-radial-gradient(45px 45px 45deg, circle farthest-corner, yellow 0%, orange 100%, red 95%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(top right, #FF8E0D 0%, #FFE608 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, right top, left bottom, color-stop(0, #FF8E0D), color-stop(1, #FFE608));
+
+	/* Webkit (Chrome 11+) */ 	
+	background-image: -webkit-linear-gradient(top right, #FF8E0D 0%, #FFE608 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom left, #FF8E0D 0%, #FFE608 100%);
+	
+	border: 1px solid transparent;
+	-webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;      
+	border-radius: 4px 4px 0 0;
+	margin-bottom: 2px;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.nav {
+	padding-left: 0px;
+	margin-left: 175px;
+}
+
+.nav li{
+	font-family: sans-serif;
+	text-shadow: 1px 1px #E0E0E0;
+	display: inline;
+	border-right: 1px solid #FFF;
+	font-weight: bold;
+	
+}
+
+.nav a:hover {
+	color: red;
+}
+
+.nav a {
+	color: #35586C;
+	text-decoration: none;
+	padding: 5px;
+	
+
+}
+
+#container {
+	margin-left: 170px;
+	margin-right: 20px;
+	min-height: 450px;
+	
+}
+
+.content {
+	min-height: 20px;
+	padding: 19px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #f5f5f5;
+	border: 1px solid #e3e3e3;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+    border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	overflow:auto;
+}
+
+hr {
+	margin-bottom: 25px;
+}
+
+textarea, input {
+	border-radius: 4px 4px 4px 4px;
+    color: #555555;
+    display: inline-block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    vertical-align: middle;
+	background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+
+select{
+	border-radius: 4px 4px 4px 4px;
+    color: #555555;
+    display: inline-block;
+    font-size: 14px;
+	width: 234px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    vertical-align: middle;
+	background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+
+.btn {
+	background-color: #006DCC;
+    background-image: linear-gradient(to bottom, #0088CC, #0044CC);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	width: 234px;
+	height: 30px;
+}
+
+.btn:hover{
+	background-color: red;
+	background-image: none;
+}
+
+table {
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+	margin-left: 5px;
+}
+
+.GetPages th {
+	text-align: left;
+
+}
+
+.GetPages td{
+	width: 150px;
+	}
+	
+
+.AccountListing th{
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #000;
+}
+
+.AccountListing td {
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #000;
+}
+
+
+
+#footer {
+	width:100%;
+	position: relative;
+	bottom:0;
+	margin-bottom: 5px;
+	clear:both;
+	
+	border: 1px solid transparent;
+  -webkit-border-radius: 4px 4px 0 0;
+     -moz-border-radius: 4px 4px 0 0;
+          border-radius: 4px 4px 0 0;
+	margin-bottom: 2px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top right, #FF8E0D 0%, #FFE608 100%);
+
+	/* Mozilla Firefox its diferent cause its Firefox. Deal with it B) */ 
+	background-image: -moz-radial-gradient(45px 45px 45deg, circle farthest-corner, yellow 0%, orange 100%, red 95%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(top right, #FF8E0D 0%, #FFE608 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, right top, left bottom, color-stop(0, #FF8E0D), color-stop(1, #FFE608));
+
+	/* Webkit (Chrome 11+) */ 	
+	background-image: -webkit-linear-gradient(top right, #FF8E0D 0%, #FFE608 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom left, #FF8E0D 0%, #FFE608 100%);
+}
+
+#footer p {
+	padding: 0px;
+	margin: 0px;
+}
+
+/*formatting classes*/
+	
+.text-center{
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.wide220 {
+	width: 220px;
+}
+
+.wide400 {
+	width: 400px;
+}
+
+.wideall {
+	width: 100%;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}	

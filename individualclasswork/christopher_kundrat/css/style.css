@@ -1,0 +1,228 @@
+@import url('bootstrap.css');
+.support-note span{
+	color: #ac375d;
+	font-size: 16px;
+	display: none;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px 0;
+}
+.well1 {
+min-height: 20px;
+padding: 19px;
+margin-bottom: 20px;
+background-color: #888ce4;
+border: 2px solid #e3e3e3;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.well3 {
+	 width:400px;
+  height:180px;
+  margin:30px 50px;
+  background-color:#ffffff;
+  border:1px solid black;
+ 
+  opacity: 0.5;
+filter: alpha(opacity=50); 
+}
+
+.well2 {
+min-height: 20px;
+
+margin-bottom: 20px;
+background-color: #FFF;
+border: 2px solid #e3e3e3;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.form-1 {
+	margin-left: 10px;
+}
+
+
+.navbar .nav >li > a{
+	color: #183a7d;
+	text-shadow: none;
+}
+
+.welllogo {
+  min-height: 2px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #23cec2;
+  border: 1px solid #23cec2;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.wellfooter {
+  min-height: 2px;
+  padding: 19px;
+  margin-bottom: 10px;
+  background-color: #F09F27;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+p.logo{
+font-weight: normal;
+  color: #BA0024;
+	
+}
+
+p.logo1{
+font-weight: normal;
+  color: #ffffff;
+  
+.main {
+	padding: 5px 5px 5px 5px;
+}
+
+}
+h3.logo1 {
+	  
+  font-weight: normal;
+  color: #F09F27;
+}
+h3.logo {
+  
+  background-color: white;
+  font-weight: normal;
+  color: #BA0024;
+}
+
+.wellheader{
+  min-height: 2px;
+  padding: 19px;
+  margin-bottom: 5px;
+  background-color: #F09F27;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+body {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+line-height: 20px;
+color: #333333;
+background:#1D4C8C;
+}
+
+
+.content {
+margin-top: 50px;
+color: #1D7074;
+opacity: 0.5;
+filter: alpha(opacity=50); 
+background-color: #fffff;
+
+}
+
+
+.ptext {
+	color: #fffff;
+text-shadow: none;
+}
+.navbar-inner {
+min-height: 40px;
+padding-right: 40px;
+padding-left: 30px;
+background: #F09F27; /* Old browsers */
+background: -moz-linear-gradient(top,  #ff670f 0%, #ff670f 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff670f), color-stop(100%,#F09F27); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #F09F27 0%,#F09F27 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ff670f 0%,#ff670f 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ff670f 0%,#ff670f 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ff670f 0%,#ff670f 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff670f', endColorstr='#ff670f',GradientType=0 ); /* IE6-9 */
+padding-top: 30px;
+padding-bottom: 40px;
+}
+
+h3.logo {
+	background-color:#183a7d;
+}
+
+.navbar .brand {
+display: inline-block;
+width: 90px;
+height: 40px;
+padding: 0;
+margin: 0px 10px 0px 0px;
+background: url(muttilandlogo2.png) no-repeat;
+font-size: 20px;
+font-weight: 200;
+background-color: none;
+color: #183a7d;
+text-shadow: none;
+}
+
+
+
+.navbar-inner, .navbar .btn-navbar {
+    background: #183a7d; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VhYjkyZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjNzk4MTAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #eab92d 0%, #183a7d 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eab92d), color-stop(100%,#c79810)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #eab92d 0%,#c79810 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #eab92d 0%,#c79810 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #eab92d 0%,#c79810 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #eab92d 0%,#c79810 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eab92d', endColorstr='#c79810',GradientType=0 ); /* IE6-8 */
+    }
+    
+.navbar .divider-vertical {
+    background-color: #183a7d;
+    border-right: 2px solid #183a7d;
+    }
+    
+
+ .navbar .nav .active > a{
+	 color:#183a7d;
+
+	 background:none;
+ }   
+ .navbar .nav .active > a:hover{
+	 background: none;
+	 background-color: #183a7d;
+
+}
+
+
+.navbar .nav > li > a {
+color: #ba0024;
+text-shadow: none;
+}
+.navbar .divider-vertical{
+	border-left: 1px solid #183a7d;
+	border-left: 1px solid #183a7d;
+}
+
+message {
+	background-color: :red;
+}
